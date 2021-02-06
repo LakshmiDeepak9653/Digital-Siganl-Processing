@@ -1,0 +1,10 @@
+clc;
+clear all;
+i=imread('/home/shahid/Pictures/Screenshot from 2019-12-19 13-29-51.png');
+j=rgb2gray(i);
+subplot(1,3,1);
+imshow(i);
+title('original');
+subplot(1,3,2);
+imshow(j);
+title('Grey'); 

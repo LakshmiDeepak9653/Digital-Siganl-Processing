@@ -1,0 +1,13 @@
+x=0:10;
+y1=2*x;
+y2=x.*x;
+subplot(2,1,1);
+plot(x,y1);
+xlabel('x---->');
+ylabel('y---->');
+title('y = 2*x ');
+subplot(2,1,2);
+plot(x,y2);
+xlabel('x---->');
+ylabel('y---->');
+title('y=x^2');
